@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<title>Курси – SkillUp</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Графічний дизайн, веброзробка, англійська, цифрова грамотність та робота з даними. Перегляньте навчальні напрями й оберіть свій.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="styles/courses_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/courses_responsive.css">
+<link rel="stylesheet" type="text/css" href="styles/modal.css">
+<link rel="icon" type="image/png" href="images/logo.png">
+</head>
+<body>
+
+<div class="super_container">
+
+	<!-- Header -->
+
+	<header class="header d-flex flex-row">
+		<div class="header_content d-flex flex-row align-items-center">
+			<!-- Logo -->
+			<div class="logo_container">
+				<div class="logo">
+					<img src="images/logo.png" alt="Логотип SkillUp">
+					<span>SkillUp</span>
+				</div>
+			</div>
+
+			<!-- Main Navigation -->
+			<nav class="main_nav_container">
+				<div class="main_nav">
+					<ul class="main_nav_list">
+					<li class="main_nav_item"><a href="index.html">Головна</a></li>
+					<li class="main_nav_item"><a href="about.html">Про нас</a></li>
+					<li class="main_nav_item"><a href="courses.html">Курси</a></li>
+					<li class="main_nav_item"><a href="404.html">Випускники</a></li>
+					<li class="main_nav_item"><a href="contact.html">Контакти</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<div class="header_side d-flex flex-row justify-content-center align-items-center">
+			<img src="images/phone-call.svg" alt="Телефон">
+			<span>068 897 67 45</span>
+		</div>
+
+		<!-- Hamburger -->
+		<div class="hamburger_container" title="Відкрити меню">
+			<i class="fas fa-bars trans_200"></i>
+		</div>
+
+	</header>
+	
+	<!-- Menu -->
+	<div class="menu_container menu_mm">
+
+		<!-- Menu Close Button -->
+		<div class="menu_close_container" title="Закрити меню">
+			<div class="menu_close"></div>
+		</div>
+
+		<!-- Menu Items -->
+		<div class="menu_inner menu_mm">
+			<div class="menu menu_mm">
+				<ul class="menu_list menu_mm">
+					<li class="menu_item menu_mm"><a href="index.html">Головна</a></li>
+					<li class="menu_item menu_mm"><a href="about.html">Про нас</a></li>
+					<li class="menu_item menu_mm"><a href="courses.html">Курси</a></li>
+					<li class="menu_item menu_mm"><a href="404.html">Випускники</a></li>
+					<li class="menu_item menu_mm"><a href="contact.html">Контакти</a></li>
+				</ul>
+
+				<!-- Menu Social -->
+				
+				<div class="menu_social_container menu_mm">
+					<ul class="menu_social menu_mm">
+						<li class="menu_social_item menu_mm"><a href="#" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a></li>
+						<li class="menu_social_item menu_mm"><a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+						<li class="menu_social_item menu_mm"><a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+						<li class="menu_social_item menu_mm"><a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+						<li class="menu_social_item menu_mm"><a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
+					</ul>
+				</div>
+
+				<div class="menu_copyright menu_mm">&copy; <script>document.write(new Date().getFullYear());</script> SkillUp. Усі права захищено.</div>
+			</div>
+
+		</div>
+
+	</div>
+	
+	<!-- Home -->
+
+	<div class="home">
+		<div class="home_background_container prlx_parent">
+			<div class="home_background prlx" style="background-image:url(images/courses_background.jpg)"></div>
+		</div>
+		<div class="home_content">
+			<h1>Курси</h1>
+		</div>
+	</div>
+
+	<!-- Popular -->
+
+	<div class="popular page_section" id="course-catalog">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="section_title text-center">
+						<h1>Оберіть свій напрям</h1>
+					</div>
+				</div>
+			</div>
+
+			<div class="row course_boxes">
+				
+				<!-- Popular Course Item -->
+				<div class="col-lg-4 course_box" id="course-design">
+					<div class="card">
+						<img class="card-img-top" src="images/course_1.jpg" alt="Ілюстрація до курсу «Основи графічного дизайну»">
+						<div class="card-body text-center">
+							<div class="card-title"><a href="contact.html#course-question" data-learning-modal-open data-learning-course="Основи графічного дизайну" aria-haspopup="dialog" aria-controls="learning-modal">Основи графічного дизайну</a></div>
+							<div class="card-text">Композиція, колір і типографіка в практичних макетах.</div>
+						</div>
+						<div class="price_box d-flex flex-row align-items-center">
+							<div class="course_author_image">
+								<img src="images/author.jpg" alt="Ілюстрація до навчального напряму">
+							</div>
+							<div class="course_author_name">Дизайн <span>Практика</span></div>
+							<div class="course_price d-flex flex-column align-items-center justify-content-center"><span>База</span></div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Popular Course Item -->
+				<div class="col-lg-4 course_box" id="course-web">
+					<div class="card">
+						<img class="card-img-top" src="images/course_2.jpg" alt="Ілюстрація до курсу «Веброзробка: HTML і CSS»">
+						<div class="card-body text-center">
+							<div class="card-title"><a href="contact.html#course-question" data-learning-modal-open data-learning-course="Веброзробка: HTML і CSS" aria-haspopup="dialog" aria-controls="learning-modal">Веброзробка: HTML і CSS</a></div>
+							<div class="card-text">Структура сторінки, стилі та адаптивна верстка.</div>
+						</div>
+						<div class="price_box d-flex flex-row align-items-center">
+							<div class="course_author_image">
+								<img src="images/author.jpg" alt="Ілюстрація до навчального напряму">
+							</div>
+							<div class="course_author_name">Веброзробка <span>Практика</span></div>
+							<div class="course_price d-flex flex-column align-items-center justify-content-center"><span>База</span></div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Popular Course Item -->
+				<div class="col-lg-4 course_box" id="course-photoshop">
+					<div class="card">
+						<img class="card-img-top" src="images/course_3.jpg" alt="Ілюстрація до курсу «Обробка фото у Photoshop»">
+						<div class="card-body text-center">
+							<div class="card-title"><a href="contact.html#course-question" data-learning-modal-open data-learning-course="Обробка фото у Photoshop" aria-haspopup="dialog" aria-controls="learning-modal">Обробка фото у Photoshop</a></div>
+							<div class="card-text">Ретуш, маски, шари та підготовка зображень.</div>
+						</div>
+						<div class="price_box d-flex flex-row align-items-center">
+							<div class="course_author_image">
+								<img src="images/author.jpg" alt="Ілюстрація до навчального напряму">
+							</div>
+							<div class="course_author_name">Графіка <span>Практика</span></div>
+							<div class="course_price d-flex flex-column align-items-center justify-content-center"><span>Фото</span></div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Popular Course Item -->
+				<div class="col-lg-4 course_box" id="course-javascript">
+					<div class="card">
+						<img class="card-img-top" src="images/course_4.jpg" alt="Ілюстрація до курсу «JavaScript для початківців»">
+						<div class="card-body text-center">
+							<div class="card-title"><a href="contact.html#course-question" data-learning-modal-open data-learning-course="JavaScript для початківців" aria-haspopup="dialog" aria-controls="learning-modal">JavaScript для початківців</a></div>
+							<div class="card-text">Змінні, функції та взаємодія з елементами сторінки.</div>
+						</div>
+						<div class="price_box d-flex flex-row align-items-center">
+							<div class="course_author_image">
+								<img src="images/author.jpg" alt="Ілюстрація до навчального напряму">
+							</div>
+							<div class="course_author_name">Програмування <span>Практика</span></div>
+							<div class="course_price d-flex flex-column align-items-center justify-content-center"><span>Код</span></div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Popular Course Item -->
+				<div class="col-lg-4 course_box" id="course-digital">
+					<div class="card">
+						<img class="card-img-top" src="images/course_5.jpg" alt="Ілюстрація до курсу «Цифрова грамотність»">
+						<div class="card-body text-center">
+							<div class="card-title"><a href="contact.html#course-question" data-learning-modal-open data-learning-course="Цифрова грамотність" aria-haspopup="dialog" aria-controls="learning-modal">Цифрова грамотність</a></div>
+							<div class="card-text">Файли, хмарні сервіси та безпека в інтернеті.</div>
+						</div>
+						<div class="price_box d-flex flex-row align-items-center">
+							<div class="course_author_image">
+								<img src="images/author.jpg" alt="Ілюстрація до навчального напряму">
+							</div>
+							<div class="course_author_name">Цифрові навички <span>Практика</span></div>
+							<div class="course_price d-flex flex-column align-items-center justify-content-center"><span>База</span></div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Popular Course Item -->
+				<div class="col-lg-4 course_box" id="course-english">
+					<div class="card">
+						<img class="card-img-top" src="images/course_6.jpg" alt="Ілюстрація до курсу «Англійська для спілкування»">
+						<div class="card-body text-center">
+							<div class="card-title"><a href="contact.html#course-question" data-learning-modal-open data-learning-course="Англійська для спілкування" aria-haspopup="dialog" aria-controls="learning-modal">Англійська для спілкування</a></div>
+							<div class="card-text">Повсякденна лексика, слухання та розмовна практика.</div>
+						</div>
+						<div class="price_box d-flex flex-row align-items-center">
+							<div class="course_author_image">
+								<img src="images/author.jpg" alt="Ілюстрація до навчального напряму">
+							</div>
+							<div class="course_author_name">Іноземні мови <span>Практика</span></div>
+							<div class="course_price d-flex flex-column align-items-center justify-content-center"><span>Мова</span></div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Popular Course Item -->
+				<div class="col-lg-4 course_box" id="course-presentation">
+					<div class="card">
+						<img class="card-img-top" src="images/course_7.jpg" alt="Ілюстрація до курсу «Презентації та виступи»">
+						<div class="card-body text-center">
+							<div class="card-title"><a href="contact.html#course-question" data-learning-modal-open data-learning-course="Презентації та виступи" aria-haspopup="dialog" aria-controls="learning-modal">Презентації та виступи</a></div>
+							<div class="card-text">Логіка слайдів, візуальна подача та робота з аудиторією.</div>
+						</div>
+						<div class="price_box d-flex flex-row align-items-center">
+							<div class="course_author_image">
+								<img src="images/author.jpg" alt="Ілюстрація до навчального напряму">
+							</div>
+							<div class="course_author_name">Комунікація <span>Практика</span></div>
+							<div class="course_price d-flex flex-column align-items-center justify-content-center"><span>Ідеї</span></div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Popular Course Item -->
+				<div class="col-lg-4 course_box" id="course-spreadsheets">
+					<div class="card">
+						<img class="card-img-top" src="images/course_8.jpg" alt="Ілюстрація до курсу «Робота з електронними таблицями»">
+						<div class="card-body text-center">
+							<div class="card-title"><a href="contact.html#course-question" data-learning-modal-open data-learning-course="Робота з електронними таблицями" aria-haspopup="dialog" aria-controls="learning-modal">Робота з електронними таблицями</a></div>
+							<div class="card-text">Формули, упорядкування даних і побудова діаграм.</div>
+						</div>
+						<div class="price_box d-flex flex-row align-items-center">
+							<div class="course_author_image">
+								<img src="images/author.jpg" alt="Ілюстрація до навчального напряму">
+							</div>
+							<div class="course_author_name">Робота з даними <span>Практика</span></div>
+							<div class="course_price d-flex flex-column align-items-center justify-content-center"><span>Дані</span></div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Popular Course Item -->
+				<div class="col-lg-4 course_box" id="course-marketing">
+					<div class="card">
+						<img class="card-img-top" src="images/course_9.jpg" alt="Ілюстрація до курсу «Основи цифрового маркетингу»">
+						<div class="card-body text-center">
+							<div class="card-title"><a href="contact.html#course-question" data-learning-modal-open data-learning-course="Основи цифрового маркетингу" aria-haspopup="dialog" aria-controls="learning-modal">Основи цифрового маркетингу</a></div>
+							<div class="card-text">Аудиторія, контент і планування онлайн-комунікації.</div>
+						</div>
+						<div class="price_box d-flex flex-row align-items-center">
+							<div class="course_author_image">
+								<img src="images/author.jpg" alt="Ілюстрація до навчального напряму">
+							</div>
+							<div class="course_author_name">Маркетинг <span>Практика</span></div>
+							<div class="course_price d-flex flex-column align-items-center justify-content-center"><span>План</span></div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>		
+	</div>
+
+	<!-- Footer -->
+
+	<footer class="footer">
+		<div class="container">
+			
+			<!-- Newsletter -->
+
+			<div class="newsletter">
+				<div class="row">
+					<div class="col">
+						<div class="section_title text-center">
+							<h1>Новини SkillUp</h1>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col text-center">
+						<div class="newsletter_form_container mx-auto">
+							<form action="post">
+								<div class="newsletter_form d-flex flex-md-row flex-column flex-xs-column align-items-center justify-content-center">
+									<label for="newsletter_email" class="sr-only">Електронна пошта для новин SkillUp</label>
+									<input id="newsletter_email" aria-label="Електронна пошта для новин SkillUp" class="newsletter_email" type="email" placeholder="Електронна пошта" required="required" data-error="Введіть коректну адресу електронної пошти.">
+									<button id="newsletter_submit" type="submit" class="newsletter_submit_btn trans_300" value="Надіслати">Підписатися</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<!-- Footer Content -->
+
+			<div class="footer_content">
+				<div class="row">
+
+					<!-- Footer Column - About -->
+					<div class="col-lg-3 footer_col">
+
+						<!-- Logo -->
+						<div class="logo_container">
+							<div class="logo">
+								<img src="images/logo.png" alt="Логотип SkillUp">
+								<span>SkillUp</span>
+							</div>
+						</div>
+
+						<p class="footer_about_text">SkillUp – простір для знайомства з новими напрямами, осмисленої практики та розвитку навичок. Оберіть навчальну мету й рухайтеся до неї крок за кроком.</p>
+
+					</div>
+
+					<!-- Footer Column - Menu -->
+
+					<div class="col-lg-3 footer_col">
+						<div class="footer_column_title">Меню</div>
+						<div class="footer_column_content">
+							<ul>
+								<li class="footer_list_item"><a href="index.html">Головна</a></li>
+								<li class="footer_list_item"><a href="about.html">Про нас</a></li>
+								<li class="footer_list_item"><a href="courses.html">Курси</a></li>
+								<li class="footer_list_item"><a href="contact.html">Контакти</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- Footer Column - Usefull Links -->
+
+					<div class="col-lg-3 footer_col">
+						<div class="footer_column_title">Про навчання</div>
+						<div class="footer_column_content">
+							<ul>
+								<li class="footer_list_item"><a href="index.html#learning-approach">Підхід до навчання</a></li>
+								<li class="footer_list_item"><a href="index.html#choose-course">Вибір курсу</a></li>
+								<li class="footer_list_item"><a href="about.html#teaching-areas">Напрями викладання</a></li>
+								<li class="footer_list_item"><a href="about.html">Знайомство з центром</a></li>
+								<li class="footer_list_item"><a href="courses.html#course-catalog">Програми курсів</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- Footer Column - Contact -->
+
+					<div class="col-lg-3 footer_col">
+						<div class="footer_column_title">Контакти</div>
+						<button type="button" class="learning-modal-trigger" data-learning-modal-open aria-haspopup="dialog" aria-controls="learning-modal">Запитати про курс</button>
+						<div class="footer_column_content">
+							<ul>
+								<li class="footer_contact_item">
+									<div class="footer_contact_icon">
+										<img src="images/placeholder.svg" alt="Місце навчання">
+									</div>
+									м. Київ, вул. Хрещатик, 22
+								</li>
+								<li class="footer_contact_item">
+									<div class="footer_contact_icon">
+										<img src="images/smartphone.svg" alt="Телефон">
+									</div>
+									068 897 67 45
+								</li>
+								<li class="footer_contact_item">
+									<div class="footer_contact_icon">
+										<img src="images/envelope.svg" alt="Електронна пошта">
+									</div>info@study.example
+								</li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<!-- Footer Copyright -->
+
+			<div class="footer_bar d-flex flex-column flex-sm-row align-items-center">
+				<div class="footer_copyright">
+					<span>&copy; <script>document.write(new Date().getFullYear());</script> SkillUp. Усі права захищено.</span>
+				</div>
+				<div class="footer_social ml-sm-auto">
+					<ul class="menu_social">
+						<li class="menu_social_item"><a href="#" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a></li>
+						<li class="menu_social_item"><a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+						<li class="menu_social_item"><a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
+						<li class="menu_social_item"><a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+						<li class="menu_social_item"><a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+	</footer>
+
+</div>
+
+
+<dialog id="learning-modal" class="learning-modal" aria-labelledby="learning-modal-title">
+	<button type="button" class="learning-modal-close" data-learning-modal-close aria-label="Закрити вікно">&times;</button>
+	<h2 id="learning-modal-title" class="learning-modal-title">Запитання про навчання</h2>
+	<form class="learning-modal-form" method="dialog" autocomplete="off">
+		<div>
+			<label for="learning-name">Ваше ім’я</label>
+			<input id="learning-name" name="name" type="text" required minlength="2" maxlength="80" data-required-message="Вкажіть ваше ім’я." autofocus>
+		</div>
+		<div>
+			<label for="learning-email">Електронна пошта</label>
+			<input id="learning-email" name="email" type="email" required maxlength="254" data-required-message="Вкажіть електронну пошту.">
+		</div>
+		<div>
+			<label for="learning-course">Навчальний напрям</label>
+			<select id="learning-course" name="course" required data-required-message="Оберіть навчальний напрям.">
+				<option value="">Оберіть напрям</option>
+				<option value="Основи графічного дизайну">Основи графічного дизайну</option>
+				<option value="Веброзробка: HTML і CSS">Веброзробка: HTML і CSS</option>
+				<option value="Обробка фото у Photoshop">Обробка фото у Photoshop</option>
+				<option value="JavaScript для початківців">JavaScript для початківців</option>
+				<option value="Цифрова грамотність">Цифрова грамотність</option>
+				<option value="Англійська для спілкування">Англійська для спілкування</option>
+				<option value="Презентації та виступи">Презентації та виступи</option>
+				<option value="Робота з електронними таблицями">Робота з електронними таблицями</option>
+				<option value="Основи цифрового маркетингу">Основи цифрового маркетингу</option>
+				<option value="Потребую допомоги з вибором">Потребую допомоги з вибором</option>
+			</select>
+		</div>
+		<div>
+			<label for="learning-question">Ваше запитання</label>
+			<textarea id="learning-question" name="question" rows="4" required minlength="10" maxlength="1000" data-required-message="Напишіть ваше запитання."></textarea>
+		</div>
+		<div class="learning-modal-actions">
+			<button type="submit" class="learning-modal-submit">Надіслати</button>
+			<button type="button" class="learning-modal-dismiss" data-learning-modal-close>Закрити</button>
+		</div>
+	</form>
+</dialog>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap4/popper.js"></script>
+<script src="styles/bootstrap4/bootstrap.min.js"></script>
+<script src="plugins/greensock/TweenMax.min.js"></script>
+<script src="plugins/greensock/TimelineMax.min.js"></script>
+<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="plugins/greensock/animation.gsap.min.js"></script>
+<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="plugins/scrollTo/jquery.scrollTo.min.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="js/courses_custom.js"></script>
+
+<script src="js/modal.js"></script>
+</body>
+</html>

@@ -1,0 +1,142 @@
+.learning-modal-trigger,
+.learning-modal-submit,
+.learning-modal-dismiss {
+	border: 0;
+	padding: 13px 20px;
+	background: #ffb606;
+	color: #1a1a1a;
+	font: inherit;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.learning-modal-trigger {
+	margin-top: 20px;
+}
+
+.learning-modal-trigger:hover,
+.learning-modal-submit:hover {
+	background: #ffc640;
+}
+
+.learning-modal-trigger:focus-visible,
+.learning-modal button:focus-visible,
+.learning-modal input:focus-visible,
+.learning-modal select:focus-visible,
+.learning-modal textarea:focus-visible {
+	outline: 3px solid #1a1a1a;
+	outline-offset: 3px;
+}
+
+body.learning-modal-open {
+	overflow: hidden;
+}
+
+.learning-modal {
+	display: none;
+	position: fixed;
+	inset: 0;
+	width: calc(100% - 32px);
+	max-width: 540px;
+	max-height: calc(100vh - 32px);
+	max-height: calc(100dvh - 32px);
+	margin: auto;
+	padding: 32px;
+	border: 0;
+	background: #ffffff;
+	color: #1a1a1a;
+	box-shadow: 0 16px 64px rgba(0, 0, 0, 0.25);
+	overflow-y: auto;
+	overscroll-behavior: contain;
+}
+
+.learning-modal[open] {
+	display: block;
+}
+
+.learning-modal::backdrop {
+	background: rgba(0, 0, 0, 0.65);
+}
+
+.learning-modal-title {
+	margin: 0 32px 24px 0;
+	font-size: 26px;
+	font-weight: 600;
+	line-height: 1.3;
+}
+
+.learning-modal-close {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 40px;
+	height: 40px;
+	padding: 0;
+	border: 0;
+	background: transparent;
+	color: #1a1a1a;
+	font-size: 30px;
+	line-height: 1;
+	cursor: pointer;
+}
+
+.learning-modal-form {
+	display: grid;
+	gap: 16px;
+}
+
+.learning-modal-form label {
+	display: block;
+	margin: 0 0 6px;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.learning-modal-form input,
+.learning-modal-form select,
+.learning-modal-form textarea {
+	display: block;
+	width: 100%;
+	min-width: 0;
+	padding: 12px;
+	border: 1px solid #9b9b9b;
+	border-radius: 0;
+	background: #ffffff;
+	color: #1a1a1a;
+	font: inherit;
+	font-size: 16px;
+	line-height: 1.4;
+}
+
+.learning-modal-form textarea {
+	min-height: 100px;
+	resize: vertical;
+}
+
+.learning-modal-actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 12px;
+}
+
+.learning-modal-dismiss {
+	background: #ececec;
+}
+
+.learning-modal-dismiss:hover {
+	background: #dddddd;
+}
+
+@media (max-width: 575px) {
+	.learning-modal {
+		padding: 24px 20px;
+	}
+
+	.learning-modal-title {
+		font-size: 23px;
+	}
+
+	.learning-modal-actions button {
+		flex: 1 1 160px;
+	}
+}
